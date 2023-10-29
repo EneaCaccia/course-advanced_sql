@@ -1,0 +1,23 @@
+{
+    "sqltools.connections": [
+        {
+            "authenticator": "SNOWFLAKE",
+            "ocspOptions": {
+                "ocspFailOpen": true
+            },
+            "snowflakeOptions": {
+                "clientSessionKeepAlive": true,
+                "clientSessionKeepAliveHeartbeatFrequency": 3600,
+                "role": "STUDENT_ROLE"
+            },
+            "previewLimit": 50,
+            "driver": "Snowflake",
+            "name": "advance_sql_wh",
+            "account": "jv64112.us-east-2.aws",
+            "username": "toolseneacacciagmailcom",
+            "password": "Kleslie@949",
+            "database": "VK_DATA",
+            "warehouse": "TRANSFORM"
+        }
+    ]
+}
